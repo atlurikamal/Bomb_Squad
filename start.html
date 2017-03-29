@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		
+		<link href="style.css" rel="stylesheet">	
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<title>Start</title>
+		
+</head>
+
+<body style="font-family:Segoe UI light " oncontextmenu="return false"></li>
+<div class="sec">
+<nav>
+<ul>
+<li>
+<li><label>Score : <a id="scr">0</a></label></li>
+
+<li><label class="bod" style="color:rgb(67,231,71);font-family:Copperplate Gothic Bold;font-size:30pt;"><a id="tim">90</a></label></li>
+
+<li><label>Lives : <a id="liv" style="color:red;">5</a></label></li>
+
+<li><label id="bonus">Total Score : <a id="totscore"></a> With Lives Bonus ( <a id="bon"></a> ) </label></li>
+</ul>
+</nav>
+</div>
+<div class="sec bod">
+
+<ul>
+<li class='q1' data-ans='b' ><p>1. Which of the following is the boolean operator for logical-or ?<br><br>a. &<br>b. | |<br>c. |<br>d. |&</p></li>
+
+<input type=text size=20 id="ans" ><br>
+<input type=button value="Go!" id="sub" onclick="myfun();" ><p>
+</div>
+
+
+<result>
+<p class="con res" style="color:red;font-family:Copperplate Gothic Bold;"></p>
+
+<input type=button class="con cont" value="continue" onclick="cont();">
+</result>
+
+
+
+<input type=password id="pass">
+<input type=submit value="START" id="st1" onclick="myone();">
+<input type=submit value="START" id="st" onclick="sg();">
+
+
+</body>
+
+
+</html>

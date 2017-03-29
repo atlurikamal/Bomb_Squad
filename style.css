@@ -1,0 +1,143 @@
+﻿body{
+color:white;
+font-weight:bold;
+font-size:20pt;
+}
+
+html { 
+  background: url(./gamestart.jpg) no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#bonus{
+display:none;
+}
+
+.lis{
+width:100%;
+float:right;
+}
+
+nav ul{
+width:100%;
+float:right;
+list-style-type:none;
+}
+
+nav li{
+float:left;
+margin-right:150px;
+padding-left:150px;
+}
+
+nav{
+font-family:Copperplate Gothic Light;
+font-size:20pt;
+}
+
+.res{
+padding-top:17em;
+margin-left:18em;
+}
+
+
+.cont, #st1 {
+  font-size: 1.0em;
+  line-height: 1em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  background: black;
+  box-shadow: 0 0 0 2px #c94217, 0 0 0 3px black;
+  color: white;
+  display: inline-block;
+  bottom: 11px;
+  font-family: KlavikaWeb, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 24px 2px 24px;
+  text-transform: uppercase;
+  margin-left:20em;
+}
+
+.cont:hover, .cont:focus,#st1:hover, #st1:focus {
+  background: #252b30;
+  text-decoration: none;
+}
+
+#pass,#ans {
+background-color: rgb(250, 255, 189);
+background-image: none;
+color: rgb(0, 0, 0);
+box-sizing: border-box;
+border: 0;
+border-radius: 2px;
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.35),0 1px 0 #fff;
+margin-top:10px;
+padding-top:10px;
+}
+
+ .con{
+ display:none;
+ }
+
+#sub{
+   display:block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border: 2px solid green;
+    border-radius: 50%;
+    color:green;
+    text-align:center;
+    text-decoration:none;
+    background: red;
+    box-shadow: 0 0 3px red;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+#sub:hover {
+    background: green;
+    color:red;
+}
+
+li{
+list-style-type:none;
+}
+
+#st{
+  font-size: 1.0em;
+  line-height: 1em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  background: black;
+  box-shadow: 0 0 0 2px #c94217, 0 0 0 3px black;
+  color: white;
+  display: inline-block;
+  bottom: 11px;
+  font-family: KlavikaWeb, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 24px 2px 24px;
+  text-transform: uppercase;
+  margin-left:15em;
+  margin-top:12em;
+}
+
+#st:hover, #st:focus {
+  background: #252b30;
+  text-decoration: none;
+}
+
+.sec{
+display:none;
+}
+
+#st{
+display:none;
+}
